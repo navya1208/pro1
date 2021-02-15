@@ -1,0 +1,77 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyOUgbKz5Noxju3xhU8/jKdd",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/navya1208/pro1/blob/master/problem1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ytyTum1A2t1h",
+        "outputId": "d98a9314-6c18-4b8d-bdac-19064e48a95c"
+      },
+      "source": [
+        "import pandas as pd\r\n",
+        "datainput = pd.read_csv('//content//airlines.csv')\r\n",
+        "print(\"Given dataset values : \\n\", datainput)\r\n",
+        "\r\n",
+        "\r\n",
+        "  \r\n",
+        "\r\n",
+        "     "
+      ],
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Given dataset values : \n",
+            "      Airport.Code  ... Statistics.Flights.Cancelled\n",
+            "0             ATL  ...                          216\n",
+            "1             BOS  ...                          138\n",
+            "2             BWI  ...                           29\n",
+            "3             CLT  ...                           73\n",
+            "4             DCA  ...                           74\n",
+            "...           ...  ...                          ...\n",
+            "4329          ORD  ...                          875\n",
+            "4330          ATL  ...                          216\n",
+            "4331          ATL  ...                          216\n",
+            "4332          ATL  ...                          216\n",
+            "4333          ATL  ...                          216\n",
+            "\n",
+            "[4334 rows x 4 columns]\n",
+            "r\n",
+            "r\n",
+            "m\n",
+            "a\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
